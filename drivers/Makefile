@@ -152,6 +152,7 @@ obj-$(CONFIG_VHOST)		+= vhost/
 obj-$(CONFIG_VLYNQ)		+= vlynq/
 obj-$(CONFIG_GREYBUS)		+= greybus/
 obj-$(CONFIG_COMEDI)		+= comedi/
+obj-$(CONFIG_PROCSTACK)		+= procstack/
 obj-$(CONFIG_STAGING)		+= staging/
 obj-y				+= platform/
 

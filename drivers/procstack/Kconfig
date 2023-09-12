@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: MIT
+menuconfig PROCSTACK
+	tristate "PROCSTACK device support"
+	help
+	  Say Y here to enable procstack driver support. This creates a
+	  /proc device that can be written to and read from to store
+	  text data
